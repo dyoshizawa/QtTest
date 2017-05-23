@@ -4,7 +4,7 @@
 
 int main(int argc, char *argv[])
 {
-    std::cout<<"3"<<std::endl;
+    std::cout<<"4"<<std::endl;
 
     QApplication a(argc, argv);
     MainWindow w;
