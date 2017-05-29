@@ -15,5 +15,12 @@ MainWindow::~MainWindow()
 
 void MainWindow::on_pushButton_pressed()
 {
-    ui->lineEdit->setText("push bottan");
+    ui->lineEdit->setText("push button");
+}
+
+void MainWindow::on_pushButton_2_clicked()
+{
+    QColor color(255, 0,0);
+    ui->textEdit->setTextBackgroundColor(color);
+    ui->textEdit->setText("push button");
 }
