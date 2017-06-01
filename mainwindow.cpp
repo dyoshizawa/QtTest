@@ -20,7 +20,7 @@ void MainWindow::on_pushButton_pressed()
 
     //
     //画像サイズを設定
-    int width=100,height=50;
+    int width=200,height=200;
     //QImageクラスで画像を生成。フォーマットを32ビット画像にする。
     QImage image(width,height,QImage::Format_ARGB32);
 
